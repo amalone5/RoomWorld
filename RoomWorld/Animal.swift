@@ -7,6 +7,12 @@
 
 import Foundation
 
-class Animal {
+class Animal: CustomStringConvertible {
+    var name = "SomeAnimal"
+    
+    
+    var description: String {
+        return name
+    }
     
 }

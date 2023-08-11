@@ -7,5 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+var room = Room()
+var animal = Animal()
+room.addAnimal(animal)
+
+print(room.description)
 
