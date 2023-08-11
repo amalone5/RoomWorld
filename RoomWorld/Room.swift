@@ -9,20 +9,27 @@ import Foundation
 
 class Room: CustomStringConvertible {
     
-    var name = "Name"
-    let maxAnimals = 10
-    var animals: [Animal] = []
+    var name = "DefaultName"
+    let maxCreatures = 10
+    var creatures: [Creature] = []
     
-    func addAnimal(_ someAnimal: Animal) {
-        if animals.count < 10 {
-            animals.append(someAnimal)
+    var north: Optional<Room> = nil
+    var east: Optional<Room> = nil
+    var south: Optional<Room> = nil
+    var west: Optional<Room> = nil
+    
+    var state = "half-dirty"
+    
+    func addCreature(_ someCreature: Creature) {
+        if creatures.count < 10 {
+            creatures.append(someCreature)
         }
     }
     
     var description: String {
-        var out = "Room name: \(name)\nAnimals:"
-        for animal in animals {
-            out.append("\n\(animal.description)")
+        var out = "Room name: \(name)\nstate: \(state)\nCreatures:"
+        for creature in creatures {
+            out.append("\n\(creature.description)")
         }
         return out
     }

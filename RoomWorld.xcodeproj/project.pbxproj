@@ -10,6 +10,7 @@
 		266D793A2A86DBD200D1CF68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D79392A86DBD200D1CF68 /* main.swift */; };
 		266D79412A86DCCB00D1CF68 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D79402A86DCCB00D1CF68 /* Room.swift */; };
 		266D79432A86DCD700D1CF68 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D79422A86DCD700D1CF68 /* Animal.swift */; };
+		266D79452A86E44E00D1CF68 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D79442A86E44E00D1CF68 /* Creature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		266D79392A86DBD200D1CF68 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		266D79402A86DCCB00D1CF68 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		266D79422A86DCD700D1CF68 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		266D79442A86E44E00D1CF68 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		266D792D2A86DBD200D1CF68 = {
 			isa = PBXGroup;
 			children = (
+				266D79442A86E44E00D1CF68 /* Creature.swift */,
 				266D79382A86DBD200D1CF68 /* RoomWorld */,
 				266D79372A86DBD200D1CF68 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266D79452A86E44E00D1CF68 /* Creature.swift in Sources */,
 				266D79412A86DCCB00D1CF68 /* Room.swift in Sources */,
 				266D793A2A86DBD200D1CF68 /* main.swift in Sources */,
 				266D79432A86DCD700D1CF68 /* Animal.swift in Sources */,

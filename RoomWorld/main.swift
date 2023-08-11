@@ -8,8 +8,8 @@
 import Foundation
 
 var room = Room()
-var animal = Animal()
-room.addAnimal(animal)
+var creature = Creature()
+room.addCreature(creature)
 
 print(room.description)
 

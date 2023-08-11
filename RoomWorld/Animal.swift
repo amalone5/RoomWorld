@@ -7,11 +7,11 @@
 
 import Foundation
 
-class Animal: CustomStringConvertible {
-    var name = "SomeAnimal"
+class Animal: Creature {
+//    var name = "SomeAnimal"
     
     
-    var description: String {
+    override var description: String {
         return name
     }
     
