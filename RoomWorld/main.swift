@@ -9,7 +9,9 @@ import Foundation
 
 var room = Room()
 var creature = Creature()
+var animal = Animal()
 room.addCreature(creature)
+room.addCreature(animal)
 
 print(room.description)
 

@@ -8,7 +8,9 @@
 import Foundation
 
 class Creature: CustomStringConvertible {
-    var name = "SomeCreature"
+    var name: String {
+        return "SomeCreature"
+    }
     
     var description: String {
         return name

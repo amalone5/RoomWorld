@@ -47,7 +47,6 @@
 		266D792D2A86DBD200D1CF68 = {
 			isa = PBXGroup;
 			children = (
-				266D79442A86E44E00D1CF68 /* Creature.swift */,
 				266D79382A86DBD200D1CF68 /* RoomWorld */,
 				266D79372A86DBD200D1CF68 /* Products */,
 			);
@@ -64,6 +63,7 @@
 		266D79382A86DBD200D1CF68 /* RoomWorld */ = {
 			isa = PBXGroup;
 			children = (
+				266D79442A86E44E00D1CF68 /* Creature.swift */,
 				266D79392A86DBD200D1CF68 /* main.swift */,
 				266D79402A86DCCB00D1CF68 /* Room.swift */,
 				266D79422A86DCD700D1CF68 /* Animal.swift */,

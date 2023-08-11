@@ -9,7 +9,9 @@ import Foundation
 
 class Animal: Creature {
 //    var name = "SomeAnimal"
-    
+    override var name: String {
+        return "SomeAnimal"
+    }
     
     override var description: String {
         return name
