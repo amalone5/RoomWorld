@@ -9,12 +9,10 @@ import Foundation
 
 class Animal: Creature {
 //    var name = "SomeAnimal"
-    override var name: String {
-        return "SomeAnimal"
-    }
     
-    override var description: String {
-        return name
+    
+    override init(name: String, description: String){
+        super.init(name: name, description: description)
     }
     
 }

@@ -8,11 +8,16 @@
 import Foundation
 
 class Creature: CustomStringConvertible {
-    var name: String {
-        return "SomeCreature"
+    
+    var name: String
+    var description: String
+    
+    convenience init() {
+        self.init(name: "NoName", description: "NoDescription")
     }
     
-    var description: String {
-        return name
+    init(name: String, description: String) {
+        self.name = name
+        self.description = description
     }
 }

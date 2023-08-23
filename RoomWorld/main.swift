@@ -7,7 +7,7 @@
 
 import Foundation
 
-var room = Room()
+var room = Room(name: "Pig")
 var creature = Creature()
 var animal = Animal()
 room.addCreature(creature)

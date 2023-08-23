@@ -20,6 +20,13 @@ class Room: CustomStringConvertible {
     
     var state = "half-dirty"
     
+    init() {
+    }
+    
+    init(name: String){
+        self.name = name
+    }
+    
     func addCreature(_ someCreature: Creature) {
         if creatures.count < 10 {
             creatures.append(someCreature)
@@ -29,7 +36,7 @@ class Room: CustomStringConvertible {
     var description: String {
         var out = "Room name: \(name)\nstate: \(state)\nCreatures:"
         for creature in creatures {
-            out.append("\n\(creature.description)")
+            out.append("\n\(creature.name)")
         }
         return out
     }
