@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262298FE2A96CD9F0066C67E /* NPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262298FD2A96CD9F0066C67E /* NPC.swift */; };
+		262299002A96CDFE0066C67E /* PC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262298FF2A96CDFE0066C67E /* PC.swift */; };
 		266D793A2A86DBD200D1CF68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D79392A86DBD200D1CF68 /* main.swift */; };
 		266D79412A86DCCB00D1CF68 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D79402A86DCCB00D1CF68 /* Room.swift */; };
 		266D79432A86DCD700D1CF68 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D79422A86DCD700D1CF68 /* Animal.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		262298FD2A96CD9F0066C67E /* NPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPC.swift; sourceTree = "<group>"; };
+		262298FF2A96CDFE0066C67E /* PC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC.swift; sourceTree = "<group>"; };
 		266D79362A86DBD200D1CF68 /* RoomWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RoomWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		266D79392A86DBD200D1CF68 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		266D79402A86DCCB00D1CF68 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		266D792D2A86DBD200D1CF68 = {
 			isa = PBXGroup;
 			children = (
+				262298FD2A96CD9F0066C67E /* NPC.swift */,
 				266D79382A86DBD200D1CF68 /* RoomWorld */,
 				266D79372A86DBD200D1CF68 /* Products */,
 			);
@@ -67,6 +72,7 @@
 				266D79392A86DBD200D1CF68 /* main.swift */,
 				266D79402A86DCCB00D1CF68 /* Room.swift */,
 				266D79422A86DCD700D1CF68 /* Animal.swift */,
+				262298FF2A96CDFE0066C67E /* PC.swift */,
 			);
 			path = RoomWorld;
 			sourceTree = "<group>";
@@ -131,6 +137,8 @@
 			files = (
 				266D79452A86E44E00D1CF68 /* Creature.swift in Sources */,
 				266D79412A86DCCB00D1CF68 /* Room.swift in Sources */,
+				262299002A96CDFE0066C67E /* PC.swift in Sources */,
+				262298FE2A96CD9F0066C67E /* NPC.swift in Sources */,
 				266D793A2A86DBD200D1CF68 /* main.swift in Sources */,
 				266D79432A86DCD700D1CF68 /* Animal.swift in Sources */,
 			);
